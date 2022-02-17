@@ -20,7 +20,7 @@ class Unit_TestingTests: XCTestCase {
         let operation = Operations()
         
         let result = operation.multiply(a: 1, b: 2)
-        XCTAssertEqual(result, 3)
+        XCTAssertEqual(result, 2)
     }
     func testDivideStuff(){
         let operation = Operations()
